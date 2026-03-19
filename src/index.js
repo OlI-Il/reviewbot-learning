@@ -14,6 +14,7 @@ app.get('/', (req, res) => {
 app.use('/users', usersRouter);
 app.use('/tasks', tasksRouter);
 
+// Start the server
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
